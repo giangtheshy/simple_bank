@@ -1,5 +1,5 @@
 mup:
-	migrate -path db/migration -database "postgresql://postgres:12345678@vienan-prod.cgysah7oi4oj.ap-southeast-1.rds.amazonaws.com:5432/postgres" -verbose up
+	migrate -path db/migration -database "postgresql://postgres:12345678@localhost:5432/postgres" -verbose up
 mdown:
 	migrate -path db/migration -database "postgresql://postgres:12345678@vienan-prod.cgysah7oi4oj.ap-southeast-1.rds.amazonaws.com:5432/postgres" -verbose down
 mforce:
