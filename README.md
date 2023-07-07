@@ -7,3 +7,6 @@ go get github.com/lib/pq
 
 
  -->
+
+
+ <!-- migrate create new version : migrate create -ext sql  -dir db/migration -seq add_user -->

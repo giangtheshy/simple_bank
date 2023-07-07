@@ -45,7 +45,7 @@ jobs:
         which migrate
       
     - name : Run migration
-      run: make mup
+      run: make migrateup-github
 
     - name: Test
       run: make test
